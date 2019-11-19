@@ -1,0 +1,30 @@
+<section class="header-area header-four mb-100">
+  <div class="header-content-area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-10">
+          <div class="header-content text-center">
+            <h3 class="header-title">Want to Download VCF? Follow Simple Steps</h3>
+            <p class="text">Upload the excel file with contacts and press GET VCF button!</p>
+            <p class="text">The column order and name should be [Number, FirstName, LastName, Organization]</p>
+            <form action='/upload' method='post' encType="multipart/form-data">
+              {{!-- <i class="lni-envelope"></i> --}}
+              <div class="rounded-buttons mt-10">
+              <input type="file" name="sampleFile" id="file" />
+              </div>
+              <div class="rounded-buttons mt-10">
+                <button class="main-btn rounded-three">GET VCF</button>
+              </div>
+            </form>
+            {{!-- <div class="header-newslatter">
+              
+            </div> --}}
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+    <div class="header-image">
+      <img src="assets/images/header/header-4.png" alt="Header">
+    </div>
+  </div> <!-- header content area -->
+</section>
